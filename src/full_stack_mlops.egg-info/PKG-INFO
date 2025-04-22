@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: full-stack-mlops
+Version: 0.0.0
+Summary: A small python package for ml app
+Home-page: https://github.com/pvrraju/full-stack-mlops
+Author: pvrraju
+Author-email: pvrraju6669@gmail.com
+Project-URL: Bug Tracker, https://github.com/pvrraju/full-stack-mlops/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# full-stack-mlops
