@@ -1,0 +1,32 @@
+[2025-04-22 15:03:44,558: INFO: main: Logging has been set up successfully.]
+[2025-04-22 18:04:40,680: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-22 18:04:41,275: INFO: data_ingest: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 69602
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f22deb90a4615413c1f0f83c804f93bd6a821b6df637b4557f1be37e0e17b20f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DBD2:112E61:78CE49:9EC83C:68082EAB
+Accept-Ranges: bytes
+Date: Wed, 23 Apr 2025 01:04:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770070-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745370281.115546,VS0,VE170
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a5cd5fe0f9a63c46071f4dd43971d7a6736a8478
+Expires: Wed, 23 Apr 2025 01:09:41 GMT
+Source-Age: 0
+
+]
+[2025-04-22 18:04:41,277: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]

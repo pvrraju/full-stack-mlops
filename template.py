@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "full-stack-mlops"
+project_name = "full_stack_mlops"
 
 
 

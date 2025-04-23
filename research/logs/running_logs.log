@@ -1,0 +1,28 @@
+[2025-04-22 17:05:00,196: INFO: 2366278714: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 69602
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f22deb90a4615413c1f0f83c804f93bd6a821b6df637b4557f1be37e0e17b20f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DBD2:112E61:78CE49:9EC83C:68082EAB
+Accept-Ranges: bytes
+Date: Wed, 23 Apr 2025 00:05:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770039-PAO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1745366700.994915,VS0,VE141
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 09015211d384d7575ab1035845ba5135c95349f8
+Expires: Wed, 23 Apr 2025 00:10:00 GMT
+Source-Age: 0
+
+]
+[2025-04-22 17:08:33,894: INFO: 2366278714: File already exists of size: ~ 68 KB]
