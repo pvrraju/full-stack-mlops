@@ -1,1 +1,1 @@
-full-stack-mlops
+full_stack_mlops

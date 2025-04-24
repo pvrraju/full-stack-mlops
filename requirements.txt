@@ -5,25 +5,25 @@ Flask-Cors
 
 
 
-pandas==2.2.3
+pandas
 
-mlflow==2.19.0
+mlflow
 
-notebook==7.1.0
+notebook
 
-numpy==1.26.4
+numpy
 
 matplotlib
 
-python-box==7.0.0
+python-box
 
-PyYAML==6.0.2
+PyYAML
 
-tqdm==4.67.1
+tqdm
 
 ensure==1.0.2
 
-joblib==1.4.2
+joblib
 
 types-PyYAML
 

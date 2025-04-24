@@ -30,3 +30,45 @@ Source-Age: 0
 [2025-04-22 18:04:41,277: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
 
 x===============x]
+[2025-04-24 13:21:34,021: INFO: stage_01_data_ingest: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 13:21:34,023: INFO: data_ingest: File already exists of size: ~ 68 KB]
+[2025-04-24 13:21:34,054: INFO: data_ingest: Columns renamed successfully. Shape of the data: (4898, 12)]
+[2025-04-24 13:21:34,054: INFO: stage_01_data_ingest: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 14:43:22,134: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 14:43:22,823: INFO: data_ingest: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 69602
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f22deb90a4615413c1f0f83c804f93bd6a821b6df637b4557f1be37e0e17b20f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 97E2:2D5BEE:641690:84FC71:680AB07A
+Accept-Ranges: bytes
+Date: Thu, 24 Apr 2025 21:43:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770023-PAO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1745531003.579923,VS0,VE216
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 131926b3804b32e652f85a2c01801549a9c5e862
+Expires: Thu, 24 Apr 2025 21:48:22 GMT
+Source-Age: 0
+
+]
+[2025-04-24 14:43:22,871: INFO: data_ingest: Columns renamed successfully. Shape of the data: (4898, 12)]
+[2025-04-24 14:43:22,872: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 14:43:22,872: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 14:43:22,880: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
