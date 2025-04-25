@@ -11,9 +11,9 @@ from pathlib import Path
 
 from full_stack_mlops.entity.config_entity import ModelEvaluationConfig
 
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/pvrraju6669/full-stack-mlops.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"]="pvrraju6669"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="0ec6d5287bb15fdf6c68db2cda31c27b934563bd"
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/pvrraju9/full-stack-mlops.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="pvrraju9"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="0ec6d5287bb1c27b934563bd"
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
