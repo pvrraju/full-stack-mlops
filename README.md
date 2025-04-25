@@ -31,11 +31,11 @@ https://github.com/pvrraju/full-stack-mlops
 1. **Open** your local repository (the gateway to greatness).  
 2. **Create** a fresh conda env (think of it as a clean lab coat):  
    ```bash
-   conda create -n mlproj python=3.11 -y
+   conda create -n mlops python=3.11 -y
    ```  
 3. **Activate** your pristine new environment:  
    ```bash
-   conda activate mlproj
+   conda activate mlops
    ```
 
 ---
