@@ -72,3 +72,140 @@ x===============x]
 [2025-04-24 14:43:22,880: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<
 
 x===============x]
+[2025-04-24 15:55:51,343: INFO: 566020330: Splitting data into train and test sets]
+[2025-04-24 15:58:06,779: INFO: 3571852686: Train and test split done]
+[2025-04-24 15:58:06,780: INFO: 3571852686: (3673, 12)]
+[2025-04-24 15:58:06,780: INFO: 3571852686: (1225, 12)]
+[2025-04-24 16:28:24,677: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 16:28:25,361: INFO: data_ingest: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 69602
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f22deb90a4615413c1f0f83c804f93bd6a821b6df637b4557f1be37e0e17b20f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C694:230068:10DBDAA:163730D:680AC919
+Accept-Ranges: bytes
+Date: Thu, 24 Apr 2025 23:28:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770034-PAO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1745537305.191995,VS0,VE188
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2f741f3f9c4093ed162393415e6c7416f743eab5
+Expires: Thu, 24 Apr 2025 23:33:25 GMT
+Source-Age: 0
+
+]
+[2025-04-24 16:28:25,416: INFO: data_ingest: Columns renamed successfully. Shape of the data: (4898, 12)]
+[2025-04-24 16:28:25,416: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 16:28:25,416: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 16:28:25,424: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 16:28:25,424: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 16:28:25,457: INFO: data_tranform: Train and test split done]
+[2025-04-24 16:28:25,457: INFO: data_tranform: (3673, 12)]
+[2025-04-24 16:28:25,457: INFO: data_tranform: (1225, 12)]
+[2025-04-24 16:28:25,457: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 16:28:41,685: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 16:28:41,906: INFO: data_ingest: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 69602
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f22deb90a4615413c1f0f83c804f93bd6a821b6df637b4557f1be37e0e17b20f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C694:230068:10DBDAA:163730D:680AC919
+Accept-Ranges: bytes
+Date: Thu, 24 Apr 2025 23:28:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770060-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1745537322.926170,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b588f18a7ea5d825381867e53cd78c3cc6b585f7
+Expires: Thu, 24 Apr 2025 23:33:41 GMT
+Source-Age: 17
+
+]
+[2025-04-24 16:28:41,947: INFO: data_ingest: Columns renamed successfully. Shape of the data: (4898, 12)]
+[2025-04-24 16:28:41,947: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 16:28:41,947: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 16:28:41,953: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 16:28:41,953: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 16:28:41,982: INFO: data_tranform: Train and test split done]
+[2025-04-24 16:28:41,982: INFO: data_tranform: (3673, 12)]
+[2025-04-24 16:28:41,982: INFO: data_tranform: (1225, 12)]
+[2025-04-24 16:28:41,982: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 17:27:07,402: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 17:27:08,020: INFO: data_ingest: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 69602
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f22deb90a4615413c1f0f83c804f93bd6a821b6df637b4557f1be37e0e17b20f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C694:230068:10DBDAA:163730D:680AC919
+Accept-Ranges: bytes
+Date: Fri, 25 Apr 2025 00:27:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770026-PAO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1745540828.861371,VS0,VE143
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: adecc5aff5081e4111bfe62d5e58128533bd9242
+Expires: Fri, 25 Apr 2025 00:32:08 GMT
+Source-Age: 0
+
+]
+[2025-04-24 17:27:08,066: INFO: data_ingest: Columns renamed successfully. Shape of the data: (4898, 12)]
+[2025-04-24 17:27:08,066: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 17:27:08,066: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 17:27:08,073: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 17:27:08,073: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-24 17:27:08,104: INFO: data_tranform: Train and test split done]
+[2025-04-24 17:27:08,104: INFO: data_tranform: (3673, 12)]
+[2025-04-24 17:27:08,104: INFO: data_tranform: (1225, 12)]
+[2025-04-24 17:27:08,104: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-24 17:27:08,104: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-24 17:27:08,112: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]

@@ -1,1 +1,1 @@
-Validation status: True - All columns validated successfully
+Validation status: True
