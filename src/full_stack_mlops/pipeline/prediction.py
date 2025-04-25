@@ -14,3 +14,5 @@ class PredictionPipeline:
         prediction = self.model.predict(data)
 
         return prediction
+    
+# to test a new change in the code 
