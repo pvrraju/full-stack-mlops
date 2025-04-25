@@ -1,0 +1,5 @@
+# AWS credentials and keys
+mlops_accessKeys.csv
+mlops_ec2.pem
+*.pem
+*.csv
