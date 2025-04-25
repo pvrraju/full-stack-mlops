@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prediction Result</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/apple-style.css') }}">
+    </head>
+    <body>
+        <nav class="apple-nav">
+            <div class="nav-container">
+                <a class="nav-brand" href="/">WineQuality</a>
+                <!-- Add other nav items if needed -->
+            </div>
+        </nav>
+
+        <header class="apple-header">
+            <div class="header-container">
+                <h1>Prediction Result</h1>
+            </div>
+        </header>
+
+        <main class="apple-main">
+            <div class="result-container">
+                <h2>Predicted Wine Quality:</h2>
+                <p class="prediction-result">{{ prediction }}</p>
+                <a href="/" class="back-button">Predict Again</a>
+            </div>
+        </main>
+
+        <footer class="apple-footer">
+            <div class="footer-container">
+                <p>&copy; 2024 Wine Quality Predictor. Inspired by Apple Design.</p>
+            </div>
+        </footer>
+    </body>
+</html>

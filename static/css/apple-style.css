@@ -1,0 +1,195 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5f5f7; /* Light grey background */
+    color: #1d1d1f; /* Near black text */
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.apple-nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid #d2d2d7;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+}
+
+.nav-brand {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1d1d1f;
+    text-decoration: none;
+}
+
+/* Header Section */
+.apple-header {
+    padding: 60px 20px 40px;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.apple-header h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1d1d1f;
+}
+
+.apple-header .subheading {
+    font-size: 24px;
+    color: #6e6e73; /* Grey subheading text */
+}
+
+/* Main Content Area */
+.apple-main {
+    padding: 40px 20px;
+}
+
+/* Form Styling */
+.form-container, .result-container {
+    max-width: 760px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.apple-form h2, .result-container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #1d1d1f;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #d2d2d7;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: #f5f5f7;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #007aff; /* Apple blue */
+    box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.3);
+}
+
+/* Remove number input arrows */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-submit-group {
+    text-align: center;
+}
+
+.submit-button, .back-button {
+    display: inline-block;
+    background-color: #007aff; /* Apple blue */
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.submit-button:hover, .back-button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Page Specific */
+.result-container {
+    text-align: center;
+}
+
+.prediction-result {
+    font-size: 40px;
+    font-weight: 600;
+    color: #007aff;
+    margin: 20px 0 40px;
+}
+
+/* Footer */
+.apple-footer {
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 1px solid #d2d2d7;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.apple-footer p {
+    font-size: 12px;
+    color: #6e6e73;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .apple-header h1 {
+        font-size: 36px;
+    }
+    .apple-header .subheading {
+        font-size: 20px;
+    }
+    .apple-form h2, .result-container h2 {
+        font-size: 24px;
+    }
+    .form-container, .result-container {
+        padding: 30px;
+        margin: 0 10px;
+    }
+    .prediction-result {
+        font-size: 32px;
+    }
+} 
