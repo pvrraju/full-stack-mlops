@@ -14,11 +14,10 @@ from full_stack_mlops.entity.config_entity import ModelEvaluationConfig
 
 os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/pvrraju9/full-stack-mlops.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"]="pvrraju9"
-<<<<<<< HEAD
+
 os.environ["MLFLOW_TRACKING_PASSWORD"]="0ec6d5287bbd"
-=======
 os.environ["MLFLOW_TRACKING_PASSWORD"]="0ec6d5287bb1c27b934563bd"
->>>>>>> 46e41c3d34c5139376bdd4878a26f39bfe92b365
+
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
