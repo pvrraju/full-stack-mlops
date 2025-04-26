@@ -3,7 +3,8 @@ import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from urllib.parse import urlparse
 import mlflow
-import mlflow.sklearn
+# import mlflow.sklearn # Keep if other sklearn models might be logged
+import mlflow.xgboost # Add xgboost mlflow import
 import numpy as np
 import joblib
 from full_stack_mlops.utils.common import save_json
@@ -11,9 +12,9 @@ from pathlib import Path
 
 from full_stack_mlops.entity.config_entity import ModelEvaluationConfig
 
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/pvrraju6669/full-stack-mlops.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"]="pvrraju6669"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="0ec6d5287bb15fdf6c68db2cda31c27b934563bd"
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/pvrraju9/full-stack-mlops.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="pvrraju9"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="0ec6d5287bbd"
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
@@ -60,8 +61,12 @@ class ModelEvaluation:
             if tracking_url_type_store != "file":
 
             
-                mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+                mlflow.xgboost.log_model(
+                    xgb_model=model,
+                    artifact_path="model",
+                    registered_model_name="XGBoostModel"
+                )
             else:
-                mlflow.sklearn.log_model(model, "model")
+                mlflow.xgboost.log_model(xgb_model=model, artifact_path="model")
 
     

@@ -602,3 +602,96 @@ x==========x]
 
 x==========x]
 [2025-04-24 19:36:58,536: INFO: _internal: 127.0.0.1 - - [24/Apr/2025 19:36:58] "GET /train HTTP/1.1" 200 -]
+[2025-04-25 19:54:43,830: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-25 19:54:44,665: INFO: data_ingest: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 69602
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "f22deb90a4615413c1f0f83c804f93bd6a821b6df637b4557f1be37e0e17b20f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D264:FFDF0:56CE2D:72AD1C:680C4AF2
+Accept-Ranges: bytes
+Date: Sat, 26 Apr 2025 02:54:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770023-PAO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1745636084.462551,VS0,VE174
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f817baf68b0a3c6a45cbcf4ccdea8e49340caac1
+Expires: Sat, 26 Apr 2025 02:59:44 GMT
+Source-Age: 0
+
+]
+[2025-04-25 19:54:44,700: INFO: data_ingest: Columns renamed successfully. Shape of the data: (4898, 12)]
+[2025-04-25 19:54:44,700: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-25 19:54:44,700: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-25 19:54:44,707: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-25 19:54:44,707: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-25 19:54:44,735: INFO: data_tranform: Train and test split done]
+[2025-04-25 19:54:44,735: INFO: data_tranform: (3673, 12)]
+[2025-04-25 19:54:44,735: INFO: data_tranform: (1225, 12)]
+[2025-04-25 19:54:44,735: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-25 19:54:44,735: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-25 19:54:44,817: INFO: model_trainer: XGBoost model saved to artifacts/model_trainer/model.joblib]
+[2025-04-25 19:54:44,818: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-04-25 19:54:44,818: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2025-04-25 19:54:45,504: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-04-25 19:54:52,789: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-04-25 19:55:03,893: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.71:8080]
+[2025-04-25 19:55:03,893: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-04-25 19:55:16,356: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:55:16] "GET / HTTP/1.1" 200 -]
+[2025-04-25 19:55:16,426: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:55:16] "GET /static/css/apple-style.css HTTP/1.1" 200 -]
+[2025-04-25 19:55:16,683: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:55:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-04-25 19:55:25,364: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage started <<<<<<<<<<<<<<<<]
+[2025-04-25 19:55:25,367: INFO: data_ingest: File already exists of size: ~ 68 KB]
+[2025-04-25 19:55:25,394: INFO: data_ingest: Columns renamed successfully. Shape of the data: (4898, 12)]
+[2025-04-25 19:55:25,394: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-25 19:55:25,395: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-25 19:55:25,400: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-25 19:55:25,400: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage started <<<<<<<<<<<<<<<<]
+[2025-04-25 19:55:25,427: INFO: data_tranform: Train and test split done]
+[2025-04-25 19:55:25,427: INFO: data_tranform: (3673, 12)]
+[2025-04-25 19:55:25,427: INFO: data_tranform: (1225, 12)]
+[2025-04-25 19:55:25,427: INFO: main: >>>>>>>>>>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<<<<<<<
+
+x===============x]
+[2025-04-25 19:55:25,428: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-04-25 19:55:25,506: INFO: model_trainer: XGBoost model saved to artifacts/model_trainer/model.joblib]
+[2025-04-25 19:55:25,506: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-04-25 19:55:25,506: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2025-04-25 19:55:26,097: INFO: common: json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-04-25 19:55:32,909: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-04-25 19:55:33,238: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:55:33] "GET /train HTTP/1.1" 200 -]
+[2025-04-25 19:55:50,940: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:55:50] "GET / HTTP/1.1" 200 -]
+[2025-04-25 19:55:51,014: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:55:51] "[36mGET /static/css/apple-style.css HTTP/1.1[0m" 304 -]
+[2025-04-25 19:56:33,731: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:56:33] "POST /predict HTTP/1.1" 200 -]
+[2025-04-25 19:56:33,776: INFO: _internal: 127.0.0.1 - - [25/Apr/2025 19:56:33] "[36mGET /static/css/apple-style.css HTTP/1.1[0m" 304 -]

@@ -31,9 +31,17 @@ class ModelTrainerConfig:
     train_data_path: Path
     test_data_path: Path
     model_name: str
-    alpha: float
-    l1_ratio: float
-    target_column:str
+    # alpha: float # Remove or comment out old params
+    # l1_ratio: float # Remove or comment out old params
+    n_estimators: int
+    learning_rate: float
+    max_depth: int
+    subsample: float
+    colsample_bytree: float
+    gamma: float
+    reg_alpha: float
+    reg_lambda: float
+    target_column: str
 
 
 
