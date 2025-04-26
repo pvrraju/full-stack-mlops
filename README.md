@@ -82,7 +82,7 @@ https://github.com/pvrraju/full-stack-mlops
    - `AmazonEC2FullAccess`  
 3. **Create** an ECR repository (your Docker image palace):  
    ```
-   566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+   56632.dkr.ecr.ap-south-1.amazonaws.com/mlops
    ```  
 4. **Launch** an EC2 instance (Ubuntu flavor - because good taste matters).  
 5. **Install** Docker (your container cuisine):  
